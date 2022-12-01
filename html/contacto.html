@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form 
+        action="bbdd.html"
+        method="post"
+    >
+
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Introduzca su nombre">
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellidos">
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" name="phone" placeholder="Introduzca su nº teléfono">
+
+
+        <fieldset>
+            <legend>¿Como nos conocistes?</legend>
+        <ul>
+            <li><input type="radio" name = "radio-button" value="universidad">Universidad</li>
+            <li><input type="radio" name = "radio-button" value="keepcoding">Keepcoding kick-off</li>
+            <li><input type="radio" name = "radio-button" value="colegio">Colegio</li>
+            <li><input type="radio" name = "radio-button" value="en-github">En Github</li>
+        </ul>
+        </fieldset>
+
+
+        <label for="email">Introduzca su email de Github</label>
+        <input type="mail" id="email" name = "email" placeholder="Introduzca su tag de Github">
+
+        <label for="consulta">Introduca su consulta</label>
+        <textarea type="textarea" id="consulta" name = "consulta" placeholder="Introduca consulta maximo 180 caracteres" maxlength="180"></textarea>
+
+        <input type="button" value="Enviar">
+    </form>
+    
+</body>
+</html>
