@@ -7,41 +7,88 @@
     <title>Contacto</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/html/index.html" rel="noopener noreferrer">Volver inicio</a>
+        </nav>
+    </header>
     <h1>Formulario de Contacto</h1>
     <form 
         action="bbdd.html"
         method="post"
     >
+        <div>
 
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="Introduzca su nombre">
-
-        <label for="apellido">Apellidos</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellidos">
-
-        <label for="phone">Teléfono</label>
-        <input type="tel" id="phone" name="phone" placeholder="Introduzca su nº teléfono">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Introduzca su nombre" required>
+            
+        </div>
+        <div>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Introduzca su apellidos" required>
+        </div>
+        <div>
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="Introduzca su nº teléfono" required>
+        </div>
 
 
         <fieldset>
             <legend>¿Como nos conocistes?</legend>
-        <ul>
-            <li><input type="radio" name = "radio-button" value="universidad">Universidad</li>
-            <li><input type="radio" name = "radio-button" value="keepcoding">Keepcoding kick-off</li>
-            <li><input type="radio" name = "radio-button" value="colegio">Colegio</li>
-            <li><input type="radio" name = "radio-button" value="en-github">En Github</li>
-        </ul>
+                <ul>
+                    <li>
+                        <input type="radio" name = "radio-button" id="universidad" value="universidad">
+                        <label for="universidad">Universidad</label>
+                    </li>
+                    <li>
+                        <input type="radio" name = "radio-button" id = "keepcoding" value="keepcoding">
+                        <label for="keepcoding">Keepcoding kick-off</label>
+                    </li>
+                    <li>
+                        <input type="radio" name = "radio-button" id = "colegio" value="colegio">
+                        <label for="colegio">Colegio</label>
+                    </li>
+                    <li>
+                        <input type="radio" name = "radio-button" id = "en-github" value="en-github">
+                        <label for="en-github">En Github</label>
+                    </li>
+                </ul>
         </fieldset>
 
+        <div>
 
-        <label for="email">Introduzca su email de Github</label>
-        <input type="mail" id="email" name = "email" placeholder="Introduzca su tag de Github">
+            <label for="email">Introduzca su tag de Github</label>
+            <input type="mail" id="email" name = "email" placeholder="Introduzca su tag de Github" required pattern="@([A-Za-z0-9_]{1,15})">
+        </div>
+        <div>
 
-        <label for="consulta">Introduca su consulta</label>
-        <textarea type="textarea" id="consulta" name = "consulta" placeholder="Introduca consulta maximo 180 caracteres" maxlength="180"></textarea>
+            <label for="consulta">Introduca su consulta</label>
+            <textarea type="textarea" id="consulta" name = "consulta" placeholder="Introduca consulta maximo 180 caracteres" maxlength="180" minlength="10" required></textarea>
+        </div>
 
-        <input type="button" value="Enviar">
+        <button>Enviar</button>
     </form>
     
 </body>
+<footer>
+    <a 
+        href="https://www.instagram.com/estilismocanino_jenniferlozano/?hl=es"  
+        target="_blanck" rel="noreferrer noopener">
+        <img src="../imagen/icons8-instagram-16.png" alt="Icono Instagram">
+    </a>
+    
+    <a 
+        href="https://es-es.facebook.com/semilleriajmarloz1/"
+        target="_blanck" rel="noreferrer noopener">
+        <img src="../imagen/icons8-facebook-48.png" alt="Icomo facebook">
+    </a>
+    
+    <a
+        href="https://www.youtube.com/watch?v=gADrhMgfSuQ"
+        target="_blanck" rel="noreferrer noopener">
+        <img src="../imagen/icons8-youtube-cuadrado-48.png" alt="Icono youtube">
+
+    </a>
+
+</footer>
 </html>
