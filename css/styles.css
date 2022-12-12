@@ -1,0 +1,127 @@
+:root {
+    box-sizing: border-box;
+    
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.05;
+    text-decoration: underline;
+}
+
+li {
+    list-style:circle;
+    margin-left: 30px;
+}
+
+.main-index h1, h3, h2 {
+    margin: 1.2em 0;
+}
+
+.main-index {
+    margin: 0 10px 0 20px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.navbar h3 {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.ul-navbar {
+    display: flex;
+}
+.navbar .list-navbar {
+    list-style: none;
+    margin-right: 15px;
+    display: none;
+}
+
+.ul-navbar .list-navbar a {
+    color: white;
+
+    
+}
+
+.footer {
+    display: block;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+
+
+
+}
+
+.footer .ul-footer .youtube {
+    margin-right: 20px;
+}
+
+.footer .ul-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .ul-footer li {
+    list-style: none;
+    
+}
+
+
+.servicios {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (min-width: 500px){
+    .navbar .ul-navbar .list-navbar {
+        display: flex;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+   
+    
+}
+
+@media (min-width: 768px) {
+    .header-index {
+        display: flex;
+        justify-content: center;
+    }
+    .header-index img {
+        max-width: 500px;
+        
+    }
+    
+}
