@@ -3,6 +3,10 @@
     
     
     
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -30,8 +34,13 @@ li {
 
 .main-index h1, h3, h2 {
     margin: 1.2em 0;
+    display: flex;
+    justify-content: center;
+    
 }
-
+h3 {
+    
+}
 .main-index {
     margin: 0 10px 0 20px;
 }
@@ -45,6 +54,10 @@ li {
     height: 70px;
     background-color: black;
     color: white;
+    position: sticky;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .navbar h3 {
@@ -63,9 +76,21 @@ li {
 
 .ul-navbar .list-navbar a {
     color: white;
+    transition: font-size 0.3s linear;
 
     
 }
+
+@media  (min-width : 500px) {
+    .ul-navbar .list-navbar a:hover{
+        font-size: 1.5rem;
+        cursor: pointer;
+
+
+    }
+    
+}
+
 
 .footer {
     display: block;
@@ -73,6 +98,7 @@ li {
     position: absolute;
     justify-content: space-between;
     width: 100%;
+    
 
 
 

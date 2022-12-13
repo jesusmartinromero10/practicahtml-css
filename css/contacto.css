@@ -15,6 +15,7 @@ a {
 h1 {
     font-size: 1.4em;
     font-weight: bold;
+    
 }
 h2 {
     font-size: 1.1em;
@@ -27,7 +28,7 @@ h3 {
 }
 
 li {
-    list-style:circle;
+    list-style:none;
     margin-left: 30px;
 }
 
@@ -47,41 +48,33 @@ li {
     color:  white;
 }
 
-.header-campeonatos {
+.header-contacto {
     display: flex;
     justify-content: center;
     
     margin-bottom: 20px;
 }
 
-.header-campeonatos video {
-    max-width:320px;
-    
 
-}
-
-.main-campeonatos h1, h3, h2 {
+.main-contacto h1, h3, h2 {
     margin: 1.2em 0;
 }
 
-.main-campeonatos {
+.main-contacto {
     margin: 0 10px 0 20px;
+    display: block;
 }
-
-.imagen-campeonatos {
-    display: flex;
-    width: 100%;
-    justify-content:center ;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.imagen-campeonatos img {
-    width: 180px;
-    height: 180px;
-    padding: 30px;
+.form {
+    line-height: 50px;
+    justify-content: center;
     
 }
+.main-contacto > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .footer {
     display: block;
@@ -89,6 +82,7 @@ li {
     position: absolute;
     justify-content: space-between;
     width: 100%;
+    bottom: 0;
   
 
 
@@ -111,23 +105,3 @@ li {
 .footer .ul-footer .instagram{
     margin-left: 20px;
 }
-
-@media (min-width:375px){
-    .header-campeonatos video {
-    
-        max-width:375px;
-        
-    
-    }
-
-}
-@media (min-width:425px){
-    .header-campeonatos video {
-    
-        max-width:425px;
-        
-    
-    }
-
-}
-
