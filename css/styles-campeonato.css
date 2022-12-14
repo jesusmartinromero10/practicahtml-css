@@ -83,6 +83,116 @@ li {
     
 }
 
+.skill {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:25% 25% 25% 25% ;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.andalucia {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gibraltar {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.internacional {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.espana {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.iberico {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.mundial {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.crufts {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.barra {
+    margin: 0 auto;
+    height: 20px;
+    width: 40%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+
+
+}
+
+.skill > div > p {
+    text-align: center;
+    font-size: 12px;
+}
+.progreso {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+    background-image: 
+        linear-gradient(
+            -45deg,
+            yellow 25%,
+            green 25%,
+            green 50%,
+            yellow 50%,
+            yellow 75%,
+            green 75%,
+            green 
+        );
+
+        background-size: 50px 50px;
+        animation: load 1s infinite linear;
+}
+
+
+.progreso2{
+    display: block;
+    width: 50%;
+    height: 100%;
+    border-radius: 30%;
+    background-image: 
+        linear-gradient(
+            -45deg,
+            yellow 25%,
+            green 25%,
+            green 50%,
+            yellow 50%,
+            yellow 75%,
+            green 75%,
+            green 
+        );
+
+        background-size: 50px 50px;
+        animation: load 1s infinite linear;
+}
+@keyframes load {
+    0% {
+        background-position: 0px 0px;
+
+    }
+
+    100% {
+        background-position: 50px 50px;
+    }
+}
 .footer {
     display: block;
     align-items: center;
@@ -120,6 +230,8 @@ li {
     
     }
 
+
+
 }
 @media (min-width:425px){
     .header-campeonatos video {
@@ -129,5 +241,56 @@ li {
     
     }
 
+}
+
+@media  (min-width: 768px) {
+
+    .skill > div {
+        padding-top: 20px;
+    }
+    .skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:25% 25% 25% 25% ;
+        line-height: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .andalucia {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .gibraltar {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .internacional {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .espana {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .iberico {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    .mundial {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    .crufts {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
+    
 }
 
