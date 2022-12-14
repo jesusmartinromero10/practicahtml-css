@@ -46,6 +46,7 @@ li {
 .navbar a, .navbar h3 {
     margin: 0 10px 0 20px;
     color:  white;
+    text-decoration: none;
 }
 
 .header-contacto {
