@@ -1,6 +1,6 @@
 # Pagina Portofolio de Semilleria Jmarloz
 
-En esta pagina veremos un poco el contenido de una tienda de animales y peluqueria canina profesional.
+En esta página veremos un poco el contenido de una tienda de animales y peluqueria canina profesional.
 
  
 
@@ -11,9 +11,9 @@ En esta pagina veremos un poco el contenido de una tienda de animales y peluquer
 
 ## Caracteristias especiales
 
-- Hemos echo la pagina de un modo responsive
-- La pagina esta echa en MOBILE FIRST
-- Se han usado las `Medias queries` necesarias para ajustarla a las diferentes anchos de paginas
+- Hemos hecho la pagina de un modo responsive
+- La pagina esta hecha en MOBILE FIRST
+- Se han usado las `Medias queries` necesarias para ajustarla a las diferentes anchos de páginas
 - Se han ajustados las imagenes para los diferentes calidad de pixeles de los monitores
 - Se ha ocultado la barra de navegacion en modo movil como se pide en la practica
 
