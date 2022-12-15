@@ -69,8 +69,10 @@ ul {
 }
 
 .main-contacto {
-    margin: 0 10px 0 20px;
+    margin: 0 10px 40px 20px;
     display: block;
+   
+    
 }
 .form {
     line-height: 50px;
@@ -80,17 +82,23 @@ ul {
 .main-contacto > h1 {
     display: flex;
     justify-content: center;
+    
 }
 
-
+#consulta {
+    max-width: 100%;
+}
 
 .footer {
     display: block;
     align-items: center;
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     width: 100%;
     bottom: 0;
+    
+    
+    
   
 
 
@@ -117,5 +125,21 @@ ul {
 
 }
 
-
+@media (min-width:768px) {
+    
+    
+    .main-contacto {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    
+    h1 {
+        display:block;
+        min-width: 100%;
+    }
+    
+}
 
