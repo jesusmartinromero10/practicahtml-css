@@ -125,6 +125,15 @@ ul {
 
 }
 
+@media (min-width:360px) {
+    .footer{
+        
+        position: absolute;
+
+    }
+    
+}
+
 @media (min-width:768px) {
     
     
