@@ -48,6 +48,7 @@ li {
     margin: 0 10px 0 20px;
     color:  white;
     text-decoration: none;
+    transition: font-size 0.3s linear;
 }
 
 .carousel-content {
@@ -175,4 +176,11 @@ li {
         
         
       }
+}
+
+.navbar a:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+
+
 }
