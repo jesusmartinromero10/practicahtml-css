@@ -38,9 +38,7 @@ li {
     justify-content: center;
     
 }
-h3 {
-    
-}
+
 .main-index {
     margin: 0 10px 40px 20px;
 }
@@ -124,16 +122,26 @@ h3 {
 }
 
 
-
+.localizacion {
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
 
 @media (min-width: 500px){
     .navbar .ul-navbar .list-navbar {
         display: flex;
+        
     }
 
     .navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    .localizacion {
+        min-width: 500px;
+        min-height: 250px;
     }
     
    
